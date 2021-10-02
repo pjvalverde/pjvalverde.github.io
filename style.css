@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url("./images/bg-head.png") repeat-x;
+    text-align: center;
+    font-size: 16px;
+}
+#header {
+    margin-top: 5em;
+    margin-bottom: 3em;
+    display: block;
+}
+h1 {
+    font-weight: 800;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 4px#c7c7c7;
+    letter-spacing: 2px;
+}
+h2 {
+    font-weight: 700;
+}
+h3 {
+    font-weight: 600;
+}
+#header span {
+    display: block;
+    font-weight: 300;
+    font-size: 2em;
+    letter-spacing: 5px;
+    margin-bottom: 1em;
+}
+#header img {
+    display: block;
+    margin: auto;
+}
+#header nav {
+    margin-top: 2em;
+    font-size: 1.3em;
+}
+#header nav ul {
+    margin: 0;
+    padding: 0;
+}
+#header nav ul li{ 
+    list-style: none;
+    display: inline-block;
+    font-size: 1.4em;
+}
+#bio, #repos {
+    border-bottom: 1px solid #E6E6E6;
+    display: block;
+    padding-bottom: 2em;
+}
+#bio figure {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#bio figure figcaption {
+    text-align: left;
+    width: 45%;
+    line-height: 30px;
+    margin-right: 2em;
+}
+#bio figure img {
+    border: 1px solid grey;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 30%);
+    max-width: 310px;
+    width: 40%;
+}
+#repos figure {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#repos h2 {
+    color: #00184e;
+    display: block;
+    margin: auto;
+    max-width: 95%;
+    text-align: left;
+    text-shadow: 2px 2px 4px#c7c7c7;
+}
+#repos figure figcaption {
+    text-align: left;
+    max-width: 60%;
+    line-height: 30px;
+    margin-left: 1.5em;
+}
+#repos figure figcaption h4 {
+    font-style: italic;
+    text-decoration: overline;
+}
+#repos figure img {
+    max-width: 410px;
+}
+#video-orb {
+    padding: 2em 0;
+    border-bottom: 1px solid #E6E6E6;
+}
+#video-orb h3 {
+    margin-bottom: 1em;
+}
+#footer {
+    color: #999999;
+    display: block;
+    padding: 1em 0;
+}
+.social-links {
+    display: block;
+    font-weight: 300;
+    margin: auto;
+    max-width: 70%;
+    text-align: left;
+}
+.social-links span {
+    display: inline-block;
+    height: 26px;
+    margin-right: 5px;
+    width: 30px;
+} 
+.social-links a {
+    border-radius: 6px;
+    display: inline-block;
+    padding: 0.3em 0.6em;
+    text-decoration: none;
+    color: grey;
+    font-style: italic;
+}
+.social-links a:hover {
+    background: #3c3c3c;
+    color: #E6E6E6;
+}
+.gitlab {
+    background: url("./images/lgg-social.png") no-repeat 0 -30px;
+}
+.linkedin {
+    background: url("./images/lgg-social.png") no-repeat 0 1px;
+}
+.email {
+    background: url("./images/lgg-social.png") no-repeat 0 -59px;
+    
+}
